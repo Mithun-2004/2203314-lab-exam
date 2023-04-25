@@ -1,0 +1,319 @@
+    1  ls
+    2  pwd
+    3  finger
+    4  users
+    5  finger
+    6  clear
+    7  ssh-keygen -t RSA
+    8  ls
+    9  ls .
+   10  ls -al .rsa
+   11  git --version
+   12  ls -la ~/.ssh
+   13  cat id_rsa.pub
+   14  cat ~/.id_rsa.pub
+   15  cat ~/./id_rsa.pub
+   16  cat id_rsa.pub
+   17  git config --global user.name "Mithun-2004"
+   18  git config --global user.email "mithunsivam17@gmail.com"
+   19  cd .ssh
+   20  ls
+   21  cat id_rsa.pub
+   22  cd ..
+   23  mkdir cs102-git-essentials
+   24  cd cs102-git-essentials
+   25  git clone git@github.com:Mithun-2004/cs102-practice.git
+   26  ls
+   27  cd cs102-practice
+   28  touch cs102-lecture-notes
+   29  git add .
+   30  git status
+   31  git commit -m "local:added cs102 lecture notes."
+   32  git push origin main
+   33  git push
+   34  git pull 
+   35  ls
+   36  cat cs102-lecture-notes
+   37  cat >cs102-lecture-notes
+   38  cat cs102-lecture-notes
+   39  git reset .
+   40  cat cs102-lecture-notes
+   41  git pull
+   42  git reset --hard
+   43  cat cs102-lecture-notes
+   44  git log
+   45  cat >>cs102-lecture-notes
+   46  git add .
+   47  git stage
+   48  git diff
+   49  git diff cs102-practice
+   50  cat >>cs102-lecture-notes
+   51  git diff
+   52  git reset --hard
+   53  cat cs102-lecture-notes
+   54  cat >>cs102-lecture-notes
+   55  git diff
+   56  git add .
+   57  git commit -m "one line is appended to cs102-lecture-notes"
+   58  git push origin main
+   59  cd ..
+   60  git push origin main
+   61  cd cs102-practice
+   62  git push
+   63  touch cs102-imp.txt
+   64  ls
+   65  git add .
+   66  git commit --amend
+   67  git push
+   68  git branch
+   69  git push -f origin 
+   70  cd ..
+   71  ls
+   72  clear
+   73  ls
+   74  mkdir oldipfiles
+   75  cp -r 2203314 CS102 cs102-git-init Hangman_Game Practice vim ./oldipfiles/
+   76  cp -r 2203314 CS102 CS102-git-init Hangman_Game Practice vim ./oldipfiles/
+   77  cleat
+   78  clear
+   79  ls
+   80  ls -al
+   81  clear
+   82  finger
+   83  users
+   84  logout
+   85  ls
+   86  clear
+   87  git init
+   88  finger
+   89  users
+   90  logout
+   91  finger
+   92  users
+   93  clear
+   94  users
+   95  clear
+   96  ls
+   97  users
+   98  cd oldipfiles
+   99  ls
+  100  ls -al
+  101  cd vim
+  102  ls
+  103  cat first.sh
+  104  clear
+  105  ls
+  106  clear
+  107  ls
+  108  cat file-read.sh
+  109  cat 1.sh
+  110  cd ..
+  111  git init
+  112  clear
+  113  ls
+  114  ls -alR
+  115  clear
+  116  ls
+  117  vim sumnum.sh
+  118  cd oldipfiles
+  119  ls
+  120  cd ..
+  121  vim sumnum.sh
+  122  bash sumnum.sh
+  123  vim sumnum.sh
+  124  bash sumnum.sh
+  125  vim sumnum.sh
+  126  bash sumnum.sh
+  127  clear
+  128  vim list.sh
+  129  bash list.sh
+  130  vim list.sh
+  131  bash list.sh
+  132  vim list.sh
+  133  bash list.sh
+  134  vim list.sh
+  135  bash list.sh
+  136  vim list.sh
+  137  bash list.sh
+  138  ls
+  139  cd april24
+  140  vim count.sh
+  141  ls
+  142  bash count.sh CS102
+  143  vim count.sh
+  144  bash count.sh CS102
+  145  vim count.sh
+  146  bash count.sh CS102
+  147  bash count.sh Practice
+  148  bash count.sh ~
+  149  cd ..
+  150  ls
+  151  cd vim
+  152  ls
+  153  cat prime.sh
+  154  rm prime.sh
+  155  ls
+  156  cat fact.sh
+  157  cat readfile.sh
+  158  cat even.sh
+  159  cat variables.sh
+  160  clear
+  161  ls
+  162  cat lab4-q2.sh
+  163  clear
+  164  cd ..
+  165  logout
+  166  users
+  167  ls
+  168  cd vim
+  169  vim primenumbers.sh
+  170  bash primenumbers.sh
+  171  vim primenumbers.sh
+  172  bash primenumbers.sh
+  173  vim primenumbers.sh
+  174  bash primenumbers.sh
+  175  vim primenumbers.sh
+  176  clear
+  177  cat primenumbers.sh
+  178  vim primenumbers.sh
+  179  bash primenumbers.sh
+  180  vim primenumbers.sh
+  181  bash primenumbers.sh
+  182  clear
+  183  cat primenumbers.sh
+  184  clear
+  185  cd ..
+  186  ls
+  187  clear
+  188  logout
+  189  ls
+  190  clear
+  191  finger
+  192  users
+  193  clear
+  194  git init
+  195  git clone git@github.com:Mithun-2004/2203314-lab-exam.git
+  196  ls
+  197  cd 2203314-lab-exam
+  198  touch README.md
+  199  cat >README.md
+  200  git add .
+  201  git commit -m "README.md file created."
+  202  git push
+  203  cd ..
+  204  git clone https://github.com/tusharlone/cs102-git-essentials.git
+  205  ls
+  206  cd cs102-git-essentials
+  207  ls
+  208  cs102-practice
+  209  cd cs102-practice
+  210  ls
+  211  cd ..
+  212  rm -r cs102-git-essentials
+  213  clear
+  214  ls
+  215  ls cs102-git-essentials
+  216  cd cs102-git-essentials
+  217  cd ..
+  218  git clone https://github.com/tusharlone/cs102-git-essentials.git
+  219  mkdir labexam
+  220  cd labexam
+  221  git clone https://github.com/tusharlone/cs102-git-essentials.git
+  222  ls
+  223  cd cs102-git-essentials
+  224  ls
+  225  cp ca_500.csv ~/
+  226  cp us_500.csv ~/
+  227  cd ..\
+  228  cd ..
+  229  ls
+  230  cp ca_500.csv ./2203314-lab-exam/
+  231  cp us_500.csv ./2203314-lab-exam/
+  232  cd 2203314-lab-exam
+  233  ls
+  234  git add .
+  235  git status
+  236  git commit -m "Two new data files added."
+  237  git push
+  238  clear
+  239  cd ..
+  240  clear
+  241  vim 2203314-part2.sh
+  242  bash 2203314-part2.sh
+  243  ls
+  244  vim 2203314-part2.sh
+  245  bash 2203314-part2.sh
+  246  vim 2203314-part2.sh
+  247  bash 2203314-part2.sh
+  248  vim 2203314-part2.sh
+  249  bash 2203314-part2.sh
+  250  vim 2203314-part2.sh
+  251  bash 2203314-part2.sh
+  252  vim 2203314-part2.sh
+  253  bash 2203314-part2.sh
+  254  vim 2203314-part2.sh
+  255  bash 2203314-part2.sh
+  256  ls
+  257  cat ca_city_Montreal.csv
+  258  vim 2203314-part2.sh
+  259  bash 2203314-part2.sh
+  260  vim 2203314-part2.sh
+  261  bash 2203314-part2.sh
+  262  vim 2203314-part2.sh
+  263  bash 2203314-part2.sh
+  264  vim 2203314-part2.sh
+  265  bash 2203314-part2.sh
+  266  vim 2203314-part2.sh
+  267  bash 2203314-part2.sh
+  268  vim 2203314-part2.sh
+  269  bash 2203314-part2.sh
+  270  head -n 69 ca_500.csv
+  271  head -n 69 ca_500.csv | tail -n 1 
+  272  vim 2203314-part2.sh
+  273  bash 2203314-part2.sh
+  274  vim 2203314-part2.sh
+  275  bash 2203314-part2.sh
+  276  vim 2203314-part2.sh
+  277  bash 2203314-part2.sh
+  278  vim 2203314-part2.sh
+  279  bash 2203314-part2.sh
+  280  cat ca_city_Montreal.csv
+  281  clear
+  282  ls
+  283  cp 2203314-part2.sh 2203314_data_filter.sh
+  284  vim 2203314_data_filter.sh
+  285  bash 2203314_data_filter.sh us_500.csv city Miami
+  286  ls
+  287  cat city.csv
+  288  vim 2203314_data_filter.sh
+  289  bash 2203314_data_filter.sh us_500.csv city Miami
+  290  vim 2203314_data_filter.sh
+  291  bash 2203314_data_filter.sh us_500.csv city Miami
+  292  vim 2203314_data_filter.sh
+  293  bash 2203314_data_filter.sh us_500.csv city Miami
+  294  vim 2203314_data_filter.sh
+  295  bash 2203314_data_filter.sh us_500.csv city Miami
+  296  vim 2203314_data_filter.sh
+  297  bash 2203314_data_filter.sh us_500.csv city Miami
+  298  cat city.csv
+  299  clear
+  300  git clone git@github.com:Mithun-2004/2203314-lab-exam.git
+  301  clear
+  302  ls
+  303  cd 2203314-lab-exam
+  304  mkdir code
+  305  ls
+  306  mkdir data
+  307  ls
+  308  mv ca_500.csv ./data/
+  309  mv us_500.csv  ./data/
+  310  ls
+  311  cd ..
+  312  ls
+  313  cp 2203314-part2.sh ./2203314-lab-exam/
+  314  cp 2203314_data_filter.sh ./2203314-lab-exam/
+  315  cd 2203314-lab-exam
+  316  ls
+  317  mv 2203314_data_filter.sh 2203314-part2.sh ./code/
+  318  ls
+  319  history >2203314_history.txt
